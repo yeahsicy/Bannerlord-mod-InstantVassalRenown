@@ -1,0 +1,27 @@
+﻿<Module>
+	<Name value="Instant Vassal Renown"/>
+	<Id value="InstantVassalRenown"/>
+	<Version value="v1.0.150"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="v1.3.13"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.3.13"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.3.13"/>
+		<DependedModule Id="StoryMode" DependentVersion="v1.3.13"/>
+	</DependedModules>
+
+	<SubModules>
+		<SubModule>
+			<Name value="InstantVassalRenown"/>
+			<DLLName value="InstantVassalRenown.dll"/>
+			<SubModuleClassType value="InstantVassalRenown.InstantVassalRenownMod"/>
+			<Tags>
+				<Tag key="DedicatedServerType" value="none" />
+				<Tag key="IsNoRenderModeElement" value="false" />
+			</Tags>
+		</SubModule>
+	</SubModules>
+	<Xmls/>
+</Module>
